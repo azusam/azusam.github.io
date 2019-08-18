@@ -1,5 +1,6 @@
 @import url(fontawesome-all.min.css);
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,800,800italic");
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans+JP")
 
 /*
 	Spectral by HTML5 UP
@@ -103,7 +104,7 @@ input, select, textarea {
 
 	body, input, select, textarea {
 		color: #fff;
-		font-family: "Open Sans", Helvetica, sans-serif;
+		font-family: "Open Sans","Noto Sans JP", Helvetica, sans-serif;
 		font-size: 15pt;
 		font-weight: 400;
 		letter-spacing: 0.075em;
@@ -2820,7 +2821,39 @@ input, select, textarea {
 			background-color: #21b2a6;
 			color: #c8ece9;
 		}
-
+/*--ここからセクション1セット--*/
+		.wrapper.style1-1 {
+			background-color: #595C97;
+			color: #CBCCE5;
+		}
+			.wrapper.style1-1 header.major p {
+				color: #CBCCE5;
+			}
+/*--ここからセクション2セット--*/
+		.wrapper.style1-2 {
+			background-color: #BBB050;
+			color: #E6E7D1;
+		}
+			.wrapper.style1-2 header.major p {
+				color: #E6E7D1;
+			}
+/*--ここからセクション3セット--*/
+		.wrapper.style1-3 {
+			background-color: #C06F8B;
+			color: #F0E3E7;
+		}
+			.wrapper.style1-3 header.major p {
+				color: #F0E3E7;
+			}
+/*--ここからセクション4セット--*/
+		.wrapper.style1-4 {
+			background-color: #4A985A;
+			color: #D9ECDD;
+		}
+			.wrapper.style1-4 header.major p {
+				color: #D9ECDD;
+			}
+/*--end-*/
 			.wrapper.style1 strong, .wrapper.style1 b {
 				color: #ffffff;
 			}
